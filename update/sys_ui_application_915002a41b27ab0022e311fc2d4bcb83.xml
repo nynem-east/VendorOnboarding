@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="sys_ui_application">
+    <sys_ui_application action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <hint/>
+        <name>Vendor Onboarding</name>
+        <order/>
+        <roles>x_pisn_vdr_onb.vendor_case_user</roles>
+        <sys_class_name>sys_ui_application</sys_class_name>
+        <sys_created_by>fabio.petito</sys_created_by>
+        <sys_created_on>2019-02-07 16:53:33</sys_created_on>
+        <sys_domain>global</sys_domain>
+        <sys_domain_path>/</sys_domain_path>
+        <sys_id>915002a41b27ab0022e311fc2d4bcb83</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Vendor Onboarding</sys_name>
+        <sys_overrides/>
+        <sys_package display_value="Vendor Onboarding" source="x_pisn_vdr_onb">c99b56ab1bdf670022e311fc2d4bcbd2</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Vendor Onboarding">c99b56ab1bdf670022e311fc2d4bcbd2</sys_scope>
+        <sys_update_name>sys_ui_application_915002a41b27ab0022e311fc2d4bcb83</sys_update_name>
+        <sys_updated_by>fabio.petito</sys_updated_by>
+        <sys_updated_on>2019-02-07 16:53:33</sys_updated_on>
+    </sys_ui_application>
+</record_update>

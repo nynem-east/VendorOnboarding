@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update>
+    <sys_documentation element="order_line" label="Order Line" language="en" table="x_pisn_vdr_onb_order_case">
+        <sys_documentation action="INSERT_OR_UPDATE">
+            <element>order_line</element>
+            <help/>
+            <hint/>
+            <label>Order Line</label>
+            <language>en</language>
+            <name>x_pisn_vdr_onb_order_case</name>
+            <plural>Order Lines</plural>
+            <sys_class_name>sys_documentation</sys_class_name>
+            <sys_created_by>fabio.petito</sys_created_by>
+            <sys_created_on>2019-02-07 16:53:35</sys_created_on>
+            <sys_id>e55002a41b27ab0022e311fc2d4bcbfa</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_name>Order Line</sys_name>
+            <sys_package display_value="Vendor Onboarding" source="x_pisn_vdr_onb">c99b56ab1bdf670022e311fc2d4bcbd2</sys_package>
+            <sys_policy/>
+            <sys_scope display_value="Vendor Onboarding">c99b56ab1bdf670022e311fc2d4bcbd2</sys_scope>
+            <sys_update_name>sys_documentation_x_pisn_vdr_onb_order_case_order_line_en</sys_update_name>
+            <sys_updated_by>fabio.petito</sys_updated_by>
+            <sys_updated_on>2019-02-07 16:53:35</sys_updated_on>
+            <url/>
+            <url_target/>
+        </sys_documentation>
+    </sys_documentation>
+</record_update>

@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_ui_formatter">
+    <sys_ui_formatter action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <angular_module/>
+        <formatter>process_flow.xml</formatter>
+        <name>Process Flow</name>
+        <sys_class_name>sys_ui_formatter</sys_class_name>
+        <sys_created_by>can.yaver</sys_created_by>
+        <sys_created_on>2019-02-04 17:07:52</sys_created_on>
+        <sys_id>69d6a22f1b93a7002400993d1d4bcb1b</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Process Flow</sys_name>
+        <sys_package display_value="Vendor Onboarding" source="x_pisn_vdr_onb">c99b56ab1bdf670022e311fc2d4bcbd2</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Vendor Onboarding">c99b56ab1bdf670022e311fc2d4bcbd2</sys_scope>
+        <sys_update_name>sys_ui_formatter_69d6a22f1b93a7002400993d1d4bcb1b</sys_update_name>
+        <sys_updated_by>can.yaver</sys_updated_by>
+        <sys_updated_on>2019-02-04 17:07:52</sys_updated_on>
+        <table>x_pisn_vdr_onb_vendor_case</table>
+        <type>formatter</type>
+    </sys_ui_formatter>
+</record_update>

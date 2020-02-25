@@ -1,0 +1,105 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_hub_action_instance">
+    <sys_hub_action_instance action="INSERT_OR_UPDATE">
+        <action_inputs/>
+        <action_inputs/>
+        <action_type display_value="Create Record">2de05916c31332002841b63b12d3aee1</action_type>
+        <action_type_parent/>
+        <comment>VMDO team completes with Sanofi Data</comment>
+        <compiled_snapshot display_value="Create Record">2de05916c31332002841b63b12d3aee1</compiled_snapshot>
+        <display_text/>
+        <flow display_value="Vendor Onboarding V3">9602cd221be7a34022e311fc2d4bcbae</flow>
+        <order>21</order>
+        <parent_ui_id/>
+        <sys_class_name>sys_hub_action_instance</sys_class_name>
+        <sys_created_by>vincent.malvy</sys_created_by>
+        <sys_created_on>2019-02-14 07:26:58</sys_created_on>
+        <sys_id>f5c10cf21ba3e34022e311fc2d4bcbc2</sys_id>
+        <sys_mod_count>66</sys_mod_count>
+        <sys_name/>
+        <sys_package display_value="Vendor Onboarding" source="x_pisn_vdr_onb">c99b56ab1bdf670022e311fc2d4bcbd2</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Vendor Onboarding">c99b56ab1bdf670022e311fc2d4bcbd2</sys_scope>
+        <sys_update_name>sys_hub_action_instance_f5c10cf21ba3e34022e311fc2d4bcbc2</sys_update_name>
+        <sys_updated_by>system</sys_updated_by>
+        <sys_updated_on>2019-02-14 14:40:44</sys_updated_on>
+        <ui_id>50277777-a2c9-40b4-bd2d-3ef319f95a1e</ui_id>
+    </sys_hub_action_instance>
+    <sys_variable_value action="delete_multiple" query="document_key=f5c10cf21ba3e34022e311fc2d4bcbc2"/>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_hub_action_instance</document>
+        <document_key>f5c10cf21ba3e34022e311fc2d4bcbc2</document_key>
+        <order>0</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>vincent.malvy</sys_created_by>
+        <sys_created_on>2019-02-14 07:26:58</sys_created_on>
+        <sys_id>39c10cf21ba3e34022e311fc2d4bcbc8</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>vincent.malvy</sys_updated_by>
+        <sys_updated_on>2019-02-14 07:26:58</sys_updated_on>
+        <value>task</value>
+        <variable display_value="">0352fc8cc3c632002841b63b12d3ae12</variable>
+    </sys_variable_value>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_hub_action_instance</document>
+        <document_key>f5c10cf21ba3e34022e311fc2d4bcbc2</document_key>
+        <order>0</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>vincent.malvy</sys_created_by>
+        <sys_created_on>2019-02-14 07:45:50</sys_created_on>
+        <sys_id>52160c3a1ba3e34022e311fc2d4bcb5e</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>vincent.malvy</sys_updated_by>
+        <sys_updated_on>2019-02-14 07:45:50</sys_updated_on>
+        <value>task</value>
+        <variable display_value="">61e05916c31332002841b63b12d3aee4</variable>
+    </sys_variable_value>
+    <sys_element_mapping action="delete_multiple" query="id=f5c10cf21ba3e34022e311fc2d4bcbc2"/>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>table_name</field>
+        <id>f5c10cf21ba3e34022e311fc2d4bcbc2</id>
+        <sys_created_by>vincent.malvy</sys_created_by>
+        <sys_created_on>2019-02-14 07:45:50</sys_created_on>
+        <sys_id>1e160c3a1ba3e34022e311fc2d4bcb5d</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>vincent.malvy</sys_updated_by>
+        <sys_updated_on>2019-02-14 07:45:50</sys_updated_on>
+        <table>var__m_sys_hub_action_input_2de05916c31332002841b63b12d3aee1</table>
+        <value/>
+    </sys_element_mapping>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>table_name</field>
+        <id>f5c10cf21ba3e34022e311fc2d4bcbc2</id>
+        <sys_created_by>vincent.malvy</sys_created_by>
+        <sys_created_on>2019-02-14 07:26:58</sys_created_on>
+        <sys_id>f1c10cf21ba3e34022e311fc2d4bcbc8</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>vincent.malvy</sys_updated_by>
+        <sys_updated_on>2019-02-14 07:26:58</sys_updated_on>
+        <table>var__m_sys_hub_action_input_02f0b88cc3c632002841b63b12d3aeff</table>
+        <value/>
+    </sys_element_mapping>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>values</field>
+        <id>f5c10cf21ba3e34022e311fc2d4bcbc2</id>
+        <sys_created_by>vincent.malvy</sys_created_by>
+        <sys_created_on>2019-02-14 07:26:58</sys_created_on>
+        <sys_id>b5c10cf21ba3e34022e311fc2d4bcbc8</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>vincent.malvy</sys_updated_by>
+        <sys_updated_on>2019-02-14 07:26:58</sys_updated_on>
+        <table>var__m_sys_hub_action_input_02f0b88cc3c632002841b63b12d3aeff</table>
+        <value>assignment_group={"display":"VMDO","value":"f8b7f3e61b63e34022e311fc2d4bcb0f"}^assigned_to={"display":"John Adams","value":"8c17c7f0eb32010045e1a5115206fe17"}^short_description=Completes Vendor {{e9d0d61b-baaf-4980-8134-ee1354a73944.Record}}  with Sanofi data^company={{e9d0d61b-baaf-4980-8134-ee1354a73944.Record}}^=</value>
+    </sys_element_mapping>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>values</field>
+        <id>f5c10cf21ba3e34022e311fc2d4bcbc2</id>
+        <sys_created_by>vincent.malvy</sys_created_by>
+        <sys_created_on>2019-02-14 07:45:50</sys_created_on>
+        <sys_id>de160c3a1ba3e34022e311fc2d4bcb5d</sys_id>
+        <sys_mod_count>2</sys_mod_count>
+        <sys_updated_by>vincent.malvy</sys_updated_by>
+        <sys_updated_on>2019-02-14 08:44:29</sys_updated_on>
+        <table>var__m_sys_hub_action_input_2de05916c31332002841b63b12d3aee1</table>
+        <value>assignment_group={"display":"VMDO","value":"f8b7f3e61b63e34022e311fc2d4bcb0f"}^assigned_to={"display":"John Adams","value":"8c17c7f0eb32010045e1a5115206fe17"}^short_description=Completes Vendor {{117d78fb-bd77-483a-99d4-f528afe43a16.Record.company.name}} with Sanofi data^company={{117d78fb-bd77-483a-99d4-f528afe43a16.Record.company}}^=</value>
+    </sys_element_mapping>
+</record_update>

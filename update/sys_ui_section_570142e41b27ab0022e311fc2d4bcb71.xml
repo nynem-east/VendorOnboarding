@@ -1,0 +1,421 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update>
+    <sys_ui_section caption="" section_id="570142e41b27ab0022e311fc2d4bcb71" sys_domain="global" table="x_pisn_vdr_onb_order_case" version="3" view="case">
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>process_flow.xml</element>
+            <position>0</position>
+            <sys_created_by>vincent.malvy</sys_created_by>
+            <sys_created_on>2019-02-12 18:25:28</sys_created_on>
+            <sys_id>10550cd61be3634022e311fc2d4bcbc7</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter display_value="Process Flow">7a6c80c61ba3234022e311fc2d4bcbb2</sys_ui_formatter>
+            <sys_ui_section caption="NULL" display_value="" name="x_pisn_vdr_onb_order_case" sys_domain="global" view="73259f191b0b630022e311fc2d4bcb99">570142e41b27ab0022e311fc2d4bcb71</sys_ui_section>
+            <sys_updated_by>vincent.malvy</sys_updated_by>
+            <sys_updated_on>2019-02-12 18:25:28</sys_updated_on>
+            <sys_user/>
+            <type>formatter</type>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>csm_case_head_ribbon</element>
+            <position>1</position>
+            <sys_created_by>vincent.malvy</sys_created_by>
+            <sys_created_on>2019-02-12 18:25:28</sys_created_on>
+            <sys_id>d8550cd61be3634022e311fc2d4bcbc7</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter display_value="CSM Case Header Ribbon Widget">373f2e88db9a03002e729ea3db96198e</sys_ui_formatter>
+            <sys_ui_section caption="NULL" display_value="" name="x_pisn_vdr_onb_order_case" sys_domain="global" view="73259f191b0b630022e311fc2d4bcb99">570142e41b27ab0022e311fc2d4bcb71</sys_ui_section>
+            <sys_updated_by>vincent.malvy</sys_updated_by>
+            <sys_updated_on>2019-02-12 18:25:28</sys_updated_on>
+            <sys_user/>
+            <type>formatter</type>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>short_description</element>
+            <position>2</position>
+            <sys_created_by>vincent.malvy</sys_created_by>
+            <sys_created_on>2019-02-12 18:25:28</sys_created_on>
+            <sys_id>9c550cd61be3634022e311fc2d4bcbc7</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="NULL" display_value="" name="x_pisn_vdr_onb_order_case" sys_domain="global" view="73259f191b0b630022e311fc2d4bcb99">570142e41b27ab0022e311fc2d4bcb71</sys_ui_section>
+            <sys_updated_by>vincent.malvy</sys_updated_by>
+            <sys_updated_on>2019-02-12 18:25:28</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>.begin_split</element>
+            <position>3</position>
+            <sys_created_by>vincent.malvy</sys_created_by>
+            <sys_created_on>2019-02-12 18:25:28</sys_created_on>
+            <sys_id>10550cd61be3634022e311fc2d4bcbc8</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="NULL" display_value="" name="x_pisn_vdr_onb_order_case" sys_domain="global" view="73259f191b0b630022e311fc2d4bcb99">570142e41b27ab0022e311fc2d4bcb71</sys_ui_section>
+            <sys_updated_by>vincent.malvy</sys_updated_by>
+            <sys_updated_on>2019-02-12 18:25:28</sys_updated_on>
+            <sys_user/>
+            <type>.begin_split</type>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>number</element>
+            <position>4</position>
+            <sys_created_by>vincent.malvy</sys_created_by>
+            <sys_created_on>2019-02-12 18:25:28</sys_created_on>
+            <sys_id>90550cd61be3634022e311fc2d4bcbc8</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="NULL" display_value="" name="x_pisn_vdr_onb_order_case" sys_domain="global" view="73259f191b0b630022e311fc2d4bcb99">570142e41b27ab0022e311fc2d4bcb71</sys_ui_section>
+            <sys_updated_by>vincent.malvy</sys_updated_by>
+            <sys_updated_on>2019-02-12 18:25:28</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>contact_type</element>
+            <position>5</position>
+            <sys_created_by>vincent.malvy</sys_created_by>
+            <sys_created_on>2019-02-12 18:25:28</sys_created_on>
+            <sys_id>14550cd61be3634022e311fc2d4bcbc8</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="NULL" display_value="" name="x_pisn_vdr_onb_order_case" sys_domain="global" view="73259f191b0b630022e311fc2d4bcb99">570142e41b27ab0022e311fc2d4bcb71</sys_ui_section>
+            <sys_updated_by>vincent.malvy</sys_updated_by>
+            <sys_updated_on>2019-02-12 18:25:28</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>company</element>
+            <position>6</position>
+            <sys_created_by>vincent.malvy</sys_created_by>
+            <sys_created_on>2019-02-12 18:25:28</sys_created_on>
+            <sys_id>94550cd61be3634022e311fc2d4bcbc8</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="NULL" display_value="" name="x_pisn_vdr_onb_order_case" sys_domain="global" view="73259f191b0b630022e311fc2d4bcb99">570142e41b27ab0022e311fc2d4bcb71</sys_ui_section>
+            <sys_updated_by>vincent.malvy</sys_updated_by>
+            <sys_updated_on>2019-02-12 18:25:28</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>contact</element>
+            <position>7</position>
+            <sys_created_by>vincent.malvy</sys_created_by>
+            <sys_created_on>2019-02-12 18:25:28</sys_created_on>
+            <sys_id>18550cd61be3634022e311fc2d4bcbc8</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="NULL" display_value="" name="x_pisn_vdr_onb_order_case" sys_domain="global" view="73259f191b0b630022e311fc2d4bcb99">570142e41b27ab0022e311fc2d4bcb71</sys_ui_section>
+            <sys_updated_by>vincent.malvy</sys_updated_by>
+            <sys_updated_on>2019-02-12 18:25:28</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>contact_local_time</element>
+            <position>8</position>
+            <sys_created_by>vincent.malvy</sys_created_by>
+            <sys_created_on>2019-02-12 18:25:28</sys_created_on>
+            <sys_id>98550cd61be3634022e311fc2d4bcbc8</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="NULL" display_value="" name="x_pisn_vdr_onb_order_case" sys_domain="global" view="73259f191b0b630022e311fc2d4bcb99">570142e41b27ab0022e311fc2d4bcb71</sys_ui_section>
+            <sys_updated_by>vincent.malvy</sys_updated_by>
+            <sys_updated_on>2019-02-12 18:25:28</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>contact_time_zone</element>
+            <position>9</position>
+            <sys_created_by>vincent.malvy</sys_created_by>
+            <sys_created_on>2019-02-12 18:25:28</sys_created_on>
+            <sys_id>1c550cd61be3634022e311fc2d4bcbc8</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="NULL" display_value="" name="x_pisn_vdr_onb_order_case" sys_domain="global" view="73259f191b0b630022e311fc2d4bcb99">570142e41b27ab0022e311fc2d4bcb71</sys_ui_section>
+            <sys_updated_by>vincent.malvy</sys_updated_by>
+            <sys_updated_on>2019-02-12 18:25:28</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>category</element>
+            <position>10</position>
+            <sys_created_by>vincent.malvy</sys_created_by>
+            <sys_created_on>2019-02-12 18:25:28</sys_created_on>
+            <sys_id>9c550cd61be3634022e311fc2d4bcbc8</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="NULL" display_value="" name="x_pisn_vdr_onb_order_case" sys_domain="global" view="73259f191b0b630022e311fc2d4bcb99">570142e41b27ab0022e311fc2d4bcb71</sys_ui_section>
+            <sys_updated_by>vincent.malvy</sys_updated_by>
+            <sys_updated_on>2019-02-12 18:25:28</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>case_type</element>
+            <position>11</position>
+            <sys_created_by>vincent.malvy</sys_created_by>
+            <sys_created_on>2019-02-12 18:25:28</sys_created_on>
+            <sys_id>10550cd61be3634022e311fc2d4bcbc9</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="NULL" display_value="" name="x_pisn_vdr_onb_order_case" sys_domain="global" view="73259f191b0b630022e311fc2d4bcb99">570142e41b27ab0022e311fc2d4bcb71</sys_ui_section>
+            <sys_updated_by>vincent.malvy</sys_updated_by>
+            <sys_updated_on>2019-02-12 18:25:28</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>order_case</element>
+            <position>12</position>
+            <sys_created_by>vincent.malvy</sys_created_by>
+            <sys_created_on>2019-02-12 18:25:28</sys_created_on>
+            <sys_id>90550cd61be3634022e311fc2d4bcbc9</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="NULL" display_value="" name="x_pisn_vdr_onb_order_case" sys_domain="global" view="73259f191b0b630022e311fc2d4bcb99">570142e41b27ab0022e311fc2d4bcb71</sys_ui_section>
+            <sys_updated_by>vincent.malvy</sys_updated_by>
+            <sys_updated_on>2019-02-12 18:25:28</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>invoice_case</element>
+            <position>13</position>
+            <sys_created_by>vincent.malvy</sys_created_by>
+            <sys_created_on>2019-02-12 18:25:28</sys_created_on>
+            <sys_id>14550cd61be3634022e311fc2d4bcbc9</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="NULL" display_value="" name="x_pisn_vdr_onb_order_case" sys_domain="global" view="73259f191b0b630022e311fc2d4bcb99">570142e41b27ab0022e311fc2d4bcb71</sys_ui_section>
+            <sys_updated_by>vincent.malvy</sys_updated_by>
+            <sys_updated_on>2019-02-12 18:25:28</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>contract</element>
+            <position>14</position>
+            <sys_created_by>vincent.malvy</sys_created_by>
+            <sys_created_on>2019-02-12 18:25:28</sys_created_on>
+            <sys_id>94550cd61be3634022e311fc2d4bcbc9</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="NULL" display_value="" name="x_pisn_vdr_onb_order_case" sys_domain="global" view="73259f191b0b630022e311fc2d4bcb99">570142e41b27ab0022e311fc2d4bcb71</sys_ui_section>
+            <sys_updated_by>vincent.malvy</sys_updated_by>
+            <sys_updated_on>2019-02-12 18:25:28</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>.split</element>
+            <position>15</position>
+            <sys_created_by>vincent.malvy</sys_created_by>
+            <sys_created_on>2019-02-12 18:25:28</sys_created_on>
+            <sys_id>18550cd61be3634022e311fc2d4bcbc9</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="NULL" display_value="" name="x_pisn_vdr_onb_order_case" sys_domain="global" view="73259f191b0b630022e311fc2d4bcb99">570142e41b27ab0022e311fc2d4bcb71</sys_ui_section>
+            <sys_updated_by>vincent.malvy</sys_updated_by>
+            <sys_updated_on>2019-02-12 18:25:28</sys_updated_on>
+            <sys_user/>
+            <type>.split</type>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>state</element>
+            <position>16</position>
+            <sys_created_by>vincent.malvy</sys_created_by>
+            <sys_created_on>2019-02-12 18:25:28</sys_created_on>
+            <sys_id>98550cd61be3634022e311fc2d4bcbc9</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="NULL" display_value="" name="x_pisn_vdr_onb_order_case" sys_domain="global" view="73259f191b0b630022e311fc2d4bcb99">570142e41b27ab0022e311fc2d4bcb71</sys_ui_section>
+            <sys_updated_by>vincent.malvy</sys_updated_by>
+            <sys_updated_on>2019-02-12 18:25:28</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>follow_the_sun</element>
+            <position>17</position>
+            <sys_created_by>vincent.malvy</sys_created_by>
+            <sys_created_on>2019-02-12 18:25:28</sys_created_on>
+            <sys_id>1c550cd61be3634022e311fc2d4bcbc9</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="NULL" display_value="" name="x_pisn_vdr_onb_order_case" sys_domain="global" view="73259f191b0b630022e311fc2d4bcb99">570142e41b27ab0022e311fc2d4bcb71</sys_ui_section>
+            <sys_updated_by>vincent.malvy</sys_updated_by>
+            <sys_updated_on>2019-02-12 18:25:28</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>opened_at</element>
+            <position>18</position>
+            <sys_created_by>vincent.malvy</sys_created_by>
+            <sys_created_on>2019-02-12 18:25:28</sys_created_on>
+            <sys_id>9c550cd61be3634022e311fc2d4bcbc9</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="NULL" display_value="" name="x_pisn_vdr_onb_order_case" sys_domain="global" view="73259f191b0b630022e311fc2d4bcb99">570142e41b27ab0022e311fc2d4bcb71</sys_ui_section>
+            <sys_updated_by>vincent.malvy</sys_updated_by>
+            <sys_updated_on>2019-02-12 18:25:28</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>opened_by</element>
+            <position>19</position>
+            <sys_created_by>vincent.malvy</sys_created_by>
+            <sys_created_on>2019-02-12 18:25:28</sys_created_on>
+            <sys_id>10550cd61be3634022e311fc2d4bcbca</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="NULL" display_value="" name="x_pisn_vdr_onb_order_case" sys_domain="global" view="73259f191b0b630022e311fc2d4bcb99">570142e41b27ab0022e311fc2d4bcb71</sys_ui_section>
+            <sys_updated_by>vincent.malvy</sys_updated_by>
+            <sys_updated_on>2019-02-12 18:25:28</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>priority</element>
+            <position>20</position>
+            <sys_created_by>vincent.malvy</sys_created_by>
+            <sys_created_on>2019-02-12 18:25:28</sys_created_on>
+            <sys_id>90550cd61be3634022e311fc2d4bcbca</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="NULL" display_value="" name="x_pisn_vdr_onb_order_case" sys_domain="global" view="73259f191b0b630022e311fc2d4bcb99">570142e41b27ab0022e311fc2d4bcb71</sys_ui_section>
+            <sys_updated_by>vincent.malvy</sys_updated_by>
+            <sys_updated_on>2019-02-12 18:25:28</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>assignment_group</element>
+            <position>21</position>
+            <sys_created_by>vincent.malvy</sys_created_by>
+            <sys_created_on>2019-02-12 18:25:28</sys_created_on>
+            <sys_id>14550cd61be3634022e311fc2d4bcbca</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="NULL" display_value="" name="x_pisn_vdr_onb_order_case" sys_domain="global" view="73259f191b0b630022e311fc2d4bcb99">570142e41b27ab0022e311fc2d4bcb71</sys_ui_section>
+            <sys_updated_by>vincent.malvy</sys_updated_by>
+            <sys_updated_on>2019-02-12 18:25:28</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>assigned_to</element>
+            <position>22</position>
+            <sys_created_by>vincent.malvy</sys_created_by>
+            <sys_created_on>2019-02-12 18:25:28</sys_created_on>
+            <sys_id>94550cd61be3634022e311fc2d4bcbca</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="NULL" display_value="" name="x_pisn_vdr_onb_order_case" sys_domain="global" view="73259f191b0b630022e311fc2d4bcb99">570142e41b27ab0022e311fc2d4bcb71</sys_ui_section>
+            <sys_updated_by>vincent.malvy</sys_updated_by>
+            <sys_updated_on>2019-02-12 18:25:28</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>entitlement</element>
+            <position>23</position>
+            <sys_created_by>vincent.malvy</sys_created_by>
+            <sys_created_on>2019-02-12 18:25:28</sys_created_on>
+            <sys_id>18550cd61be3634022e311fc2d4bcbca</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="NULL" display_value="" name="x_pisn_vdr_onb_order_case" sys_domain="global" view="73259f191b0b630022e311fc2d4bcb99">570142e41b27ab0022e311fc2d4bcb71</sys_ui_section>
+            <sys_updated_by>vincent.malvy</sys_updated_by>
+            <sys_updated_on>2019-02-12 18:25:28</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>time_worked</element>
+            <position>24</position>
+            <sys_created_by>vincent.malvy</sys_created_by>
+            <sys_created_on>2019-02-12 18:25:28</sys_created_on>
+            <sys_id>98550cd61be3634022e311fc2d4bcbca</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="NULL" display_value="" name="x_pisn_vdr_onb_order_case" sys_domain="global" view="73259f191b0b630022e311fc2d4bcb99">570142e41b27ab0022e311fc2d4bcb71</sys_ui_section>
+            <sys_updated_by>vincent.malvy</sys_updated_by>
+            <sys_updated_on>2019-02-12 18:25:28</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>partner</element>
+            <position>25</position>
+            <sys_created_by>vincent.malvy</sys_created_by>
+            <sys_created_on>2019-02-12 18:25:28</sys_created_on>
+            <sys_id>1c550cd61be3634022e311fc2d4bcbca</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="NULL" display_value="" name="x_pisn_vdr_onb_order_case" sys_domain="global" view="73259f191b0b630022e311fc2d4bcb99">570142e41b27ab0022e311fc2d4bcb71</sys_ui_section>
+            <sys_updated_by>vincent.malvy</sys_updated_by>
+            <sys_updated_on>2019-02-12 18:25:28</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>.end_split</element>
+            <position>26</position>
+            <sys_created_by>vincent.malvy</sys_created_by>
+            <sys_created_on>2019-02-12 18:25:28</sys_created_on>
+            <sys_id>9c550cd61be3634022e311fc2d4bcbca</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="NULL" display_value="" name="x_pisn_vdr_onb_order_case" sys_domain="global" view="73259f191b0b630022e311fc2d4bcb99">570142e41b27ab0022e311fc2d4bcb71</sys_ui_section>
+            <sys_updated_by>vincent.malvy</sys_updated_by>
+            <sys_updated_on>2019-02-12 18:25:28</sys_updated_on>
+            <sys_user/>
+            <type>.end_split</type>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>cxs_table_search.xml</element>
+            <position>27</position>
+            <sys_created_by>vincent.malvy</sys_created_by>
+            <sys_created_on>2019-02-12 18:25:28</sys_created_on>
+            <sys_id>10550cd61be3634022e311fc2d4bcbcb</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter display_value="Contextual Search Results">11eb1622eb1121003623666cd206fe56</sys_ui_formatter>
+            <sys_ui_section caption="NULL" display_value="" name="x_pisn_vdr_onb_order_case" sys_domain="global" view="73259f191b0b630022e311fc2d4bcb99">570142e41b27ab0022e311fc2d4bcb71</sys_ui_section>
+            <sys_updated_by>vincent.malvy</sys_updated_by>
+            <sys_updated_on>2019-02-12 18:25:28</sys_updated_on>
+            <sys_user/>
+            <type>formatter</type>
+        </sys_ui_element>
+        <sys_ui_section action="INSERT_OR_UPDATE">
+            <caption/>
+            <header>false</header>
+            <name>x_pisn_vdr_onb_order_case</name>
+            <roles/>
+            <sys_class_name>sys_ui_section</sys_class_name>
+            <sys_created_by>fabio.petito</sys_created_by>
+            <sys_created_on>2019-02-07 16:56:42</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>570142e41b27ab0022e311fc2d4bcb71</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_name>x_pisn_vdr_onb_order_case</sys_name>
+            <sys_overrides/>
+            <sys_package display_value="Vendor Onboarding" source="x_pisn_vdr_onb">c99b56ab1bdf670022e311fc2d4bcbd2</sys_package>
+            <sys_policy/>
+            <sys_scope display_value="Vendor Onboarding">c99b56ab1bdf670022e311fc2d4bcbd2</sys_scope>
+            <sys_update_name>sys_ui_section_570142e41b27ab0022e311fc2d4bcb71</sys_update_name>
+            <sys_updated_by>fabio.petito</sys_updated_by>
+            <sys_updated_on>2019-02-07 16:56:42</sys_updated_on>
+            <sys_user/>
+            <title>true</title>
+            <view display_value="Case" name="case">73259f191b0b630022e311fc2d4bcb99</view>
+            <view_name/>
+        </sys_ui_section>
+    </sys_ui_section>
+</record_update>

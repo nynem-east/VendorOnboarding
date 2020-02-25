@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?><database>
+    <element label="Invoice" max_length="40" name="x_pisn_vdr_onb_invoice" type="collection">
+        <element label="Due Date" max_length="40" name="due_date" type="glide_date"/>
+        <element display="true" label="Invoice ID" max_length="40" name="invoice_id" type="string"/>
+        <element label="Order Date" max_length="40" name="order_date" type="glide_date"/>
+        <element label="Short Description" max_length="100" name="short_description" type="string"/>
+        <element label="Total Amount" max_length="20" name="total_amount" type="currency"/>
+        <element label="Vendor" max_length="32" name="vendor" reference="core_company" type="reference"/>
+        <index name="index">
+            <element name="vendor"/>
+        </index>
+    </element>
+</database>

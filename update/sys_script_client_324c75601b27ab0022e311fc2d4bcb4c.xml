@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="sys_script_client">
+    <sys_script_client action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <applies_extended>false</applies_extended>
+        <condition/>
+        <description/>
+        <field>apple_icon</field>
+        <global>true</global>
+        <isolate_script>true</isolate_script>
+        <messages/>
+        <name>Change color Vendor_Tier</name>
+        <order/>
+        <script><![CDATA[function onLoad() {
+  
+	var value1 = g_form.getValue('sys_select.core_company.vendor_tier');
+	switch(value1) {
+		case "d3468593677303003b63624ad585ef07": g_form.getControl('sys_select.core_company.vendor_tier').style.background = 'red'; break;
+		case "a6b7cd93677303003b63624ad585ef37": g_form.getControl('sys_select.core_company.vendor_tier').style.background = 'tomato'; break;
+		case "19d7cd93677303003b63624ad585efd9": g_form.getControl('sys_select.core_company.vendor_tier').style.background = 'orange'; break;
+		case "eae701d3677303003b63624ad585efca": g_form.getControl('sys_select.core_company.vendor_tier').style.background = 'yellow'; break;
+		case "75f781d3677303003b63624ad585ef84": g_form.getControl('sys_select.core_company.vendor_tier').style.background = 'green'; break;
+		default: g_form.getControl('sys_select.core_company.vendor_tier').style.background = 'white'; break;
+   }
+}
+
+
+/*
+
+	fieldValues:["Critical","High","Moderate","Low","Minor"],
+
+function onChange(control, oldValue, newValue, isLoading) { 
+//  var elementID = gel("core_company.risk_rating");
+  var elementID = "sys_select.core_company.risk_rating";
+    switch(newValue) { 
+      case "1": elementID.style.backgroundColor = "red"; break; 
+      case "2": elementID.style.backgroundColor = "tomato"; break;
+      case "3": elementID.style.backgroundColor = "orange"; break;
+      case "4": elementID.style.backgroundColor = "yellow"; break;
+      case "5": elementID.style.backgroundColor = "green"; break; 
+      default: elementID.style.backgroundColor = "white"; break; } }*/]]></script>
+        <sys_class_name>sys_script_client</sys_class_name>
+        <sys_created_by>vincent.malvy</sys_created_by>
+        <sys_created_on>2019-02-07 16:35:55</sys_created_on>
+        <sys_domain>global</sys_domain>
+        <sys_domain_path>/</sys_domain_path>
+        <sys_id>324c75601b27ab0022e311fc2d4bcb4c</sys_id>
+        <sys_mod_count>2</sys_mod_count>
+        <sys_name>Change color Vendor_Tier</sys_name>
+        <sys_overrides/>
+        <sys_package display_value="Vendor Onboarding" source="x_pisn_vdr_onb">c99b56ab1bdf670022e311fc2d4bcbd2</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Vendor Onboarding">c99b56ab1bdf670022e311fc2d4bcbd2</sys_scope>
+        <sys_update_name>sys_script_client_324c75601b27ab0022e311fc2d4bcb4c</sys_update_name>
+        <sys_updated_by>vincent.malvy</sys_updated_by>
+        <sys_updated_on>2019-02-07 16:39:33</sys_updated_on>
+        <table>core_company</table>
+        <type>onLoad</type>
+        <ui_type>0</ui_type>
+        <view/>
+    </sys_script_client>
+</record_update>

@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_hub_action_instance">
+    <sys_hub_action_instance action="INSERT_OR_UPDATE">
+        <action_inputs/>
+        <action_inputs/>
+        <action_type display_value="Update SAP">0d01ccb21ba3e34022e311fc2d4bcb08</action_type>
+        <action_type_parent display_value="Update SAP">5eafb7621ba3e34022e311fc2d4bcb74</action_type_parent>
+        <comment/>
+        <compiled_snapshot display_value="Update SAP">0d01ccb21ba3e34022e311fc2d4bcb08</compiled_snapshot>
+        <display_text/>
+        <flow display_value="Vendor Onboarding V3">be164c3a1ba3e34022e311fc2d4bcb13</flow>
+        <order>24</order>
+        <parent_ui_id/>
+        <sys_class_name>sys_hub_action_instance</sys_class_name>
+        <sys_created_by>vincent.malvy</sys_created_by>
+        <sys_created_on>2019-02-14 07:45:57</sys_created_on>
+        <sys_id>00268c3a1ba3e34022e311fc2d4bcba4</sys_id>
+        <sys_mod_count>22</sys_mod_count>
+        <sys_name/>
+        <sys_package display_value="Vendor Onboarding" source="x_pisn_vdr_onb">c99b56ab1bdf670022e311fc2d4bcbd2</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Vendor Onboarding">c99b56ab1bdf670022e311fc2d4bcbd2</sys_scope>
+        <sys_update_name>sys_hub_action_instance_00268c3a1ba3e34022e311fc2d4bcba4</sys_update_name>
+        <sys_updated_by>vincent.malvy</sys_updated_by>
+        <sys_updated_on>2019-02-14 09:06:46</sys_updated_on>
+        <ui_id>21d546b3-ce65-45ef-a160-8c615cba1034</ui_id>
+    </sys_hub_action_instance>
+    <sys_variable_value action="delete_multiple" query="document_key=00268c3a1ba3e34022e311fc2d4bcba4"/>
+    <sys_element_mapping action="delete_multiple" query="id=00268c3a1ba3e34022e311fc2d4bcba4"/>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>vendor_id</field>
+        <id>00268c3a1ba3e34022e311fc2d4bcba4</id>
+        <sys_created_by>vincent.malvy</sys_created_by>
+        <sys_created_on>2019-02-14 07:45:58</sys_created_on>
+        <sys_id>c0268c3a1ba3e34022e311fc2d4bcba9</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>vincent.malvy</sys_updated_by>
+        <sys_updated_on>2019-02-14 07:45:58</sys_updated_on>
+        <table>var__m_sys_hub_action_input_0d01ccb21ba3e34022e311fc2d4bcb08</table>
+        <value>{{99748a71-3d65-443a-ab0d-08cb0a79e9e8.record}}</value>
+    </sys_element_mapping>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>vendor_name</field>
+        <id>00268c3a1ba3e34022e311fc2d4bcba4</id>
+        <sys_created_by>vincent.malvy</sys_created_by>
+        <sys_created_on>2019-02-14 07:45:58</sys_created_on>
+        <sys_id>00268c3a1ba3e34022e311fc2d4bcba9</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>vincent.malvy</sys_updated_by>
+        <sys_updated_on>2019-02-14 07:45:58</sys_updated_on>
+        <table>var__m_sys_hub_action_input_0d01ccb21ba3e34022e311fc2d4bcb08</table>
+        <value>{{99748a71-3d65-443a-ab0d-08cb0a79e9e8.record}}</value>
+    </sys_element_mapping>
+</record_update>

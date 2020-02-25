@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_hub_action_instance">
+    <sys_hub_action_instance action="INSERT_OR_UPDATE">
+        <action_inputs/>
+        <action_inputs/>
+        <action_type display_value="Create Record">2de05916c31332002841b63b12d3aee1</action_type>
+        <action_type_parent display_value="Create Record">02f0b88cc3c632002841b63b12d3aeff</action_type_parent>
+        <comment/>
+        <compiled_snapshot display_value="Create Record">2de05916c31332002841b63b12d3aee1</compiled_snapshot>
+        <display_text/>
+        <flow display_value="Vendor Onboarding">e60eac501b2f2b0022e311fc2d4bcbfb</flow>
+        <order>12</order>
+        <parent_ui_id/>
+        <sys_class_name>sys_hub_action_instance</sys_class_name>
+        <sys_created_by>vincent.malvy</sys_created_by>
+        <sys_created_on>2019-02-06 16:15:36</sys_created_on>
+        <sys_id>9b0e20901b2f2b0022e311fc2d4bcbb3</sys_id>
+        <sys_mod_count>22</sys_mod_count>
+        <sys_name/>
+        <sys_package display_value="Vendor Onboarding" source="x_pisn_vdr_onb">c99b56ab1bdf670022e311fc2d4bcbd2</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Vendor Onboarding">c99b56ab1bdf670022e311fc2d4bcbd2</sys_scope>
+        <sys_update_name>sys_hub_action_instance_9b0e20901b2f2b0022e311fc2d4bcbb3</sys_update_name>
+        <sys_updated_by>vincent.malvy</sys_updated_by>
+        <sys_updated_on>2019-02-08 09:06:56</sys_updated_on>
+        <ui_id>d1090438-56d2-4f70-a2d2-d4850bf1ef2e</ui_id>
+    </sys_hub_action_instance>
+    <sys_variable_value action="delete_multiple" query="document_key=9b0e20901b2f2b0022e311fc2d4bcbb3"/>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_hub_action_instance</document>
+        <document_key>9b0e20901b2f2b0022e311fc2d4bcbb3</document_key>
+        <order>0</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>vincent.malvy</sys_created_by>
+        <sys_created_on>2019-02-06 16:15:36</sys_created_on>
+        <sys_id>5f0e20901b2f2b0022e311fc2d4bcbb8</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>vincent.malvy</sys_updated_by>
+        <sys_updated_on>2019-02-06 16:15:36</sys_updated_on>
+        <value>sn_vdr_risk_asmt_vdr_tiering_assessment</value>
+        <variable display_value="">61e05916c31332002841b63b12d3aee4</variable>
+    </sys_variable_value>
+    <sys_element_mapping action="delete_multiple" query="id=9b0e20901b2f2b0022e311fc2d4bcbb3"/>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>table_name</field>
+        <id>9b0e20901b2f2b0022e311fc2d4bcbb3</id>
+        <sys_created_by>vincent.malvy</sys_created_by>
+        <sys_created_on>2019-02-06 16:15:36</sys_created_on>
+        <sys_id>1b0e20901b2f2b0022e311fc2d4bcbb8</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>vincent.malvy</sys_updated_by>
+        <sys_updated_on>2019-02-06 16:15:36</sys_updated_on>
+        <table>var__m_sys_hub_action_input_2de05916c31332002841b63b12d3aee1</table>
+        <value/>
+    </sys_element_mapping>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>values</field>
+        <id>9b0e20901b2f2b0022e311fc2d4bcbb3</id>
+        <sys_created_by>vincent.malvy</sys_created_by>
+        <sys_created_on>2019-02-06 16:15:36</sys_created_on>
+        <sys_id>db0e20901b2f2b0022e311fc2d4bcbb8</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>vincent.malvy</sys_updated_by>
+        <sys_updated_on>2019-02-06 16:15:36</sys_updated_on>
+        <table>var__m_sys_hub_action_input_2de05916c31332002841b63b12d3aee1</table>
+        <value>assigned_to={"display":"Vincent Malvy","value":"a22e9d561b1363002400993d1d4bcbd2"}^vendor={{99748a71-3d65-443a-ab0d-08cb0a79e9e8.record}}^tiering_assessment_assessors={{Created_1.current.sys_created_by}}^name=Tiering assessment for {{99748a71-3d65-443a-ab0d-08cb0a79e9e8.record.name}}</value>
+    </sys_element_mapping>
+</record_update>

@@ -1,0 +1,105 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_hub_action_instance">
+    <sys_hub_action_instance action="INSERT_OR_UPDATE">
+        <action_inputs/>
+        <action_inputs/>
+        <action_type display_value="Create Record">2de05916c31332002841b63b12d3aee1</action_type>
+        <action_type_parent/>
+        <comment>Create task to vendor primary contact to fill vendor master data in the portal</comment>
+        <compiled_snapshot display_value="Create Record">2de05916c31332002841b63b12d3aee1</compiled_snapshot>
+        <display_text/>
+        <flow display_value="Vendor Onboarding">a286b2771b13e70022e311fc2d4bcbeb</flow>
+        <order>9</order>
+        <parent_ui_id/>
+        <sys_class_name>sys_hub_action_instance</sys_class_name>
+        <sys_created_by>vincent.malvy</sys_created_by>
+        <sys_created_on>2019-02-06 13:34:45</sys_created_on>
+        <sys_id>1b390c941be72b0022e311fc2d4bcbe7</sys_id>
+        <sys_mod_count>58</sys_mod_count>
+        <sys_name/>
+        <sys_package display_value="Vendor Onboarding" source="x_pisn_vdr_onb">c99b56ab1bdf670022e311fc2d4bcbd2</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Vendor Onboarding">c99b56ab1bdf670022e311fc2d4bcbd2</sys_scope>
+        <sys_update_name>sys_hub_action_instance_1b390c941be72b0022e311fc2d4bcbe7</sys_update_name>
+        <sys_updated_by>system</sys_updated_by>
+        <sys_updated_on>2019-02-08 09:10:40</sys_updated_on>
+        <ui_id>71f675ae-1b3a-4de4-8c61-08bf9a8312a8</ui_id>
+    </sys_hub_action_instance>
+    <sys_variable_value action="delete_multiple" query="document_key=1b390c941be72b0022e311fc2d4bcbe7"/>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_hub_action_instance</document>
+        <document_key>1b390c941be72b0022e311fc2d4bcbe7</document_key>
+        <order>0</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>vincent.malvy</sys_created_by>
+        <sys_created_on>2019-02-06 16:15:28</sys_created_on>
+        <sys_id>ad0e6c501b2f2b0022e311fc2d4bcbce</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>vincent.malvy</sys_updated_by>
+        <sys_updated_on>2019-02-06 16:15:28</sys_updated_on>
+        <value>task</value>
+        <variable display_value="">61e05916c31332002841b63b12d3aee4</variable>
+    </sys_variable_value>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_hub_action_instance</document>
+        <document_key>1b390c941be72b0022e311fc2d4bcbe7</document_key>
+        <order>0</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>vincent.malvy</sys_created_by>
+        <sys_created_on>2019-02-06 13:34:45</sys_created_on>
+        <sys_id>d3390c941be72b0022e311fc2d4bcbed</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>vincent.malvy</sys_updated_by>
+        <sys_updated_on>2019-02-06 13:34:45</sys_updated_on>
+        <value>task</value>
+        <variable display_value="">0352fc8cc3c632002841b63b12d3ae12</variable>
+    </sys_variable_value>
+    <sys_element_mapping action="delete_multiple" query="id=1b390c941be72b0022e311fc2d4bcbe7"/>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>table_name</field>
+        <id>1b390c941be72b0022e311fc2d4bcbe7</id>
+        <sys_created_by>vincent.malvy</sys_created_by>
+        <sys_created_on>2019-02-06 16:15:28</sys_created_on>
+        <sys_id>690e6c501b2f2b0022e311fc2d4bcbce</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>vincent.malvy</sys_updated_by>
+        <sys_updated_on>2019-02-06 16:15:28</sys_updated_on>
+        <table>var__m_sys_hub_action_input_2de05916c31332002841b63b12d3aee1</table>
+        <value/>
+    </sys_element_mapping>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>table_name</field>
+        <id>1b390c941be72b0022e311fc2d4bcbe7</id>
+        <sys_created_by>vincent.malvy</sys_created_by>
+        <sys_created_on>2019-02-06 13:34:45</sys_created_on>
+        <sys_id>9f390c941be72b0022e311fc2d4bcbec</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>vincent.malvy</sys_updated_by>
+        <sys_updated_on>2019-02-06 13:34:45</sys_updated_on>
+        <table>var__m_sys_hub_action_input_02f0b88cc3c632002841b63b12d3aeff</table>
+        <value/>
+    </sys_element_mapping>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>values</field>
+        <id>1b390c941be72b0022e311fc2d4bcbe7</id>
+        <sys_created_by>vincent.malvy</sys_created_by>
+        <sys_created_on>2019-02-06 16:15:28</sys_created_on>
+        <sys_id>2d0e6c501b2f2b0022e311fc2d4bcbce</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>vincent.malvy</sys_updated_by>
+        <sys_updated_on>2019-02-06 16:15:28</sys_updated_on>
+        <table>var__m_sys_hub_action_input_2de05916c31332002841b63b12d3aee1</table>
+        <value>assigned_to={{117d78fb-bd77-483a-99d4-f528afe43a16.Record}}^short_description=Please provide your Master Data^description=Please provide your Master Data using Vendor Portal^company={{117d78fb-bd77-483a-99d4-f528afe43a16.Record.company}}</value>
+    </sys_element_mapping>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>values</field>
+        <id>1b390c941be72b0022e311fc2d4bcbe7</id>
+        <sys_created_by>vincent.malvy</sys_created_by>
+        <sys_created_on>2019-02-06 13:34:45</sys_created_on>
+        <sys_id>53390c941be72b0022e311fc2d4bcbed</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>vincent.malvy</sys_updated_by>
+        <sys_updated_on>2019-02-06 13:34:45</sys_updated_on>
+        <table>var__m_sys_hub_action_input_02f0b88cc3c632002841b63b12d3aeff</table>
+        <value>assigned_to={{117d78fb-bd77-483a-99d4-f528afe43a16.Record}}^short_description=Please provide your Master Data^description=Please provide your Master Data using Vendor Portal^company={{117d78fb-bd77-483a-99d4-f528afe43a16.Record.company}}</value>
+    </sys_element_mapping>
+</record_update>

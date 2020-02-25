@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_flow_trigger_plan">
+    <sys_flow_trigger_plan action="INSERT_OR_UPDATE">
+        <binding_strategy>com.snc.process_flow.engine.binding.OncePerRecord</binding_strategy>
+        <plan>{"persistor":{"@class":".ChunkingPlanPersistor","table":"sys_flow_trigger_plan","id":"281ee0901b2f2b0022e311fc2d4bcb77","name":"plan"}}</plan>
+        <plan_id>a286b2771b13e70022e311fc2d4bcbeb</plan_id>
+        <snapshot>acff59b81b63eb0022e311fc2d4bcb55</snapshot>
+        <sys_class_name>sys_flow_trigger_plan</sys_class_name>
+        <sys_created_by>vincent.malvy</sys_created_by>
+        <sys_created_on>2019-02-06 16:15:40</sys_created_on>
+        <sys_id>281ee0901b2f2b0022e311fc2d4bcb77</sys_id>
+        <sys_mod_count>5</sys_mod_count>
+        <sys_name>241ee0901b2f2b0022e311fc2d4bcb75</sys_name>
+        <sys_package display_value="Vendor Onboarding" source="x_pisn_vdr_onb">c99b56ab1bdf670022e311fc2d4bcbd2</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Vendor Onboarding">c99b56ab1bdf670022e311fc2d4bcbd2</sys_scope>
+        <sys_update_name>sys_flow_trigger_plan_281ee0901b2f2b0022e311fc2d4bcb77</sys_update_name>
+        <sys_updated_by>vincent.malvy</sys_updated_by>
+        <sys_updated_on>2019-02-08 09:07:00</sys_updated_on>
+        <trigger display_value="">241ee0901b2f2b0022e311fc2d4bcb75</trigger>
+    </sys_flow_trigger_plan>
+</record_update>

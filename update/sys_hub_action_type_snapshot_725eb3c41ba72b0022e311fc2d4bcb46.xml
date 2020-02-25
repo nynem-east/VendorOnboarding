@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_hub_action_type_snapshot">
+    <sys_hub_action_type_snapshot action="INSERT_OR_UPDATE">
+        <access>public</access>
+        <annotation/>
+        <category/>
+        <copied_from/>
+        <copied_from_name/>
+        <description/>
+        <internal_name>create_task_new</internal_name>
+        <label_cache>[{"name":"{{action.assigned_to}}","label":"action➛Assigned to","type":"action","ref":"vm_vdr_contact"},{"name":"{{action.short_description}}","label":"action➛Short description","type":"action","ref":""},{"name":"{{action.company}}","label":"action➛company","type":"action","ref":"core_company"},{"name":"{{action.description4}}","label":"action➛Description","type":"action","ref":""},{"name":"{{step[648e2baa-d126-4de6-9df3-c1a908e20340].record}}","label":"step➛Create Record step➛Task Record","type":"step","ref":"task"}]</label_cache>
+        <master>true</master>
+        <name>create task New</name>
+        <outputs/>
+        <outputs/>
+        <parent_action display_value="create task New">48ab73041ba72b0022e311fc2d4bcbb3</parent_action>
+        <sys_class_name>sys_hub_action_type_snapshot</sys_class_name>
+        <sys_created_by>vincent.malvy</sys_created_by>
+        <sys_created_on>2019-02-06 12:47:12</sys_created_on>
+        <sys_id>725eb3c41ba72b0022e311fc2d4bcb46</sys_id>
+        <sys_mod_count>1</sys_mod_count>
+        <sys_name>create task New</sys_name>
+        <sys_package display_value="Vendor Onboarding" source="x_pisn_vdr_onb">c99b56ab1bdf670022e311fc2d4bcbd2</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Vendor Onboarding">c99b56ab1bdf670022e311fc2d4bcbd2</sys_scope>
+        <sys_update_name>sys_hub_action_type_snapshot_725eb3c41ba72b0022e311fc2d4bcb46</sys_update_name>
+        <sys_updated_by>vincent.malvy</sys_updated_by>
+        <sys_updated_on>2019-02-06 12:47:13</sys_updated_on>
+        <system_level>false</system_level>
+        <type/>
+    </sys_hub_action_type_snapshot>
+    <sys_translated_text action="delete_multiple" query="documentkey=725eb3c41ba72b0022e311fc2d4bcb46"/>
+    <sys_variable_value action="delete_multiple" query="document_key=725eb3c41ba72b0022e311fc2d4bcb46"/>
+    <sys_element_mapping action="delete_multiple" query="id=725eb3c41ba72b0022e311fc2d4bcb46"/>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>task</field>
+        <id>725eb3c41ba72b0022e311fc2d4bcb46</id>
+        <sys_created_by>vincent.malvy</sys_created_by>
+        <sys_created_on>2019-02-06 12:47:13</sys_created_on>
+        <sys_id>875eb3c41ba72b0022e311fc2d4bcb7f</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>vincent.malvy</sys_updated_by>
+        <sys_updated_on>2019-02-06 12:47:13</sys_updated_on>
+        <table>var__m_sys_hub_action_output_725eb3c41ba72b0022e311fc2d4bcb46</table>
+        <value>{{step[648e2baa-d126-4de6-9df3-c1a908e20340].record}}</value>
+    </sys_element_mapping>
+</record_update>

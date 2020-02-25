@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_process_flow">
+    <sys_process_flow action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <condition table="x_pisn_vdr_onb_vendor_case">state=3^EQ<item endquery="false" field="state" goto="false" newquery="false" operator="=" or="false" value="3"/>
+            <item endquery="true" field="" goto="false" newquery="false" operator="=" or="false" value=""/>
+        </condition>
+        <description/>
+        <label>Registration</label>
+        <name>Registration</name>
+        <order>300</order>
+        <sys_class_name>sys_process_flow</sys_class_name>
+        <sys_created_by>can.yaver</sys_created_by>
+        <sys_created_on>2019-02-04 17:18:04</sys_created_on>
+        <sys_id>cf29ae231bd3a7002400993d1d4bcb0c</sys_id>
+        <sys_mod_count>2</sys_mod_count>
+        <sys_name>Registration</sys_name>
+        <sys_package display_value="Vendor Onboarding" source="x_pisn_vdr_onb">c99b56ab1bdf670022e311fc2d4bcbd2</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Vendor Onboarding">c99b56ab1bdf670022e311fc2d4bcbd2</sys_scope>
+        <sys_update_name>sys_process_flow_cf29ae231bd3a7002400993d1d4bcb0c</sys_update_name>
+        <sys_updated_by>vincent.malvy</sys_updated_by>
+        <sys_updated_on>2019-02-14 07:42:18</sys_updated_on>
+        <table>x_pisn_vdr_onb_vendor_case</table>
+    </sys_process_flow>
+</record_update>

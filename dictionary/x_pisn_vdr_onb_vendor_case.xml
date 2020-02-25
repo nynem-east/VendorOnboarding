@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="UTF-8"?><database>
+    <element attributes="live_feed=true" audit="true" extends="sn_customerservice_case" label="Vendor Case" max_length="40" name="x_pisn_vdr_onb_vendor_case" sizeclass="13" type="collection">
+        <element label="Business Owner" max_length="32" name="business_owner" reference="sys_user" type="glide_list"/>
+        <element label="Invoice" max_length="32" name="invoice" reference="x_pisn_vdr_onb_invoice" reference_qual="javascript:'^vendor='  +  current.company;" type="reference" use_dependent_field="true" use_reference_qualifier="advanced"/>
+        <element label="Vendor Manager" max_length="100" name="vendor_manager" reference="sys_user" type="glide_list"/>
+    </element>
+</database>

@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_script_include">
+    <sys_script_include action="INSERT_OR_UPDATE">
+        <access>public</access>
+        <active>true</active>
+        <api_name>x_pisn_vdr_onb.VendorRpAPI</api_name>
+        <caller_access/>
+        <client_callable>true</client_callable>
+        <description/>
+        <name>VendorRpAPI</name>
+        <script><![CDATA[var VendorRpAPI = Class.create();
+VendorRpAPI.prototype = Object.extendsObject(global.AbstractAjaxProcessor, {
+  isVendorExisting: function() {
+	var username = this.getParameter('sysparm_username');
+	//var userGR = new GlideRecord('vm_vdr_contact');
+	var userGR = new GlideRecord('sys_user');
+    userGR.addQuery('user_name', username);
+    userGR.query(); 
+    while (userGR.next())
+	  return true;
+	
+	return false;
+},
+    type: 'VendorRpAPI'
+});]]></script>
+        <sys_class_name>sys_script_include</sys_class_name>
+        <sys_created_by>fabio.petito</sys_created_by>
+        <sys_created_on>2019-02-12 23:20:22</sys_created_on>
+        <sys_id>cdf7011a1baf23402400993d1d4bcb65</sys_id>
+        <sys_mod_count>3</sys_mod_count>
+        <sys_name>VendorRpAPI</sys_name>
+        <sys_package display_value="Vendor Onboarding" source="x_pisn_vdr_onb">c99b56ab1bdf670022e311fc2d4bcbd2</sys_package>
+        <sys_policy>read</sys_policy>
+        <sys_scope display_value="Vendor Onboarding">c99b56ab1bdf670022e311fc2d4bcbd2</sys_scope>
+        <sys_update_name>sys_script_include_cdf7011a1baf23402400993d1d4bcb65</sys_update_name>
+        <sys_updated_by>fabio.petito</sys_updated_by>
+        <sys_updated_on>2019-02-13 09:31:15</sys_updated_on>
+    </sys_script_include>
+</record_update>

@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update>
+    <sys_ui_form_sections form_id="7a3ed6f71b93e7002400993d1d4bcbc7" sys_domain="global" table="csm_consumer_user" version="3">
+        <sys_ui_form_section action="INSERT_OR_UPDATE">
+            <position>0</position>
+            <sys_created_by>can.yaver</sys_created_by>
+            <sys_created_on>2019-02-05 11:08:44</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>f23ed6f71b93e7002400993d1d4bcbcd</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_overrides/>
+            <sys_ui_form display_value="csm_consumer_user" name="csm_consumer_user" sys_domain="global" view="Default view">7a3ed6f71b93e7002400993d1d4bcbc7</sys_ui_form>
+            <sys_ui_section caption="NULL" display_value="" name="csm_consumer_user" sys_domain="global" view="Default view">fe3ed6f71b93e7002400993d1d4bcbc9</sys_ui_section>
+            <sys_updated_by>can.yaver</sys_updated_by>
+            <sys_updated_on>2019-02-05 11:08:44</sys_updated_on>
+        </sys_ui_form_section>
+        <sys_ui_form_section action="INSERT_OR_UPDATE">
+            <position>1</position>
+            <sys_created_by>can.yaver</sys_created_by>
+            <sys_created_on>2019-02-05 11:08:44</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>b63ed6f71b93e7002400993d1d4bcbcf</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_overrides/>
+            <sys_ui_form display_value="csm_consumer_user" name="csm_consumer_user" sys_domain="global" view="Default view">7a3ed6f71b93e7002400993d1d4bcbc7</sys_ui_form>
+            <sys_ui_section caption="Organization" display_value="Organization" name="csm_consumer_user" sys_domain="global" view="Default view">fa3ed6f71b93e7002400993d1d4bcbcd</sys_ui_section>
+            <sys_updated_by>can.yaver</sys_updated_by>
+            <sys_updated_on>2019-02-05 11:08:44</sys_updated_on>
+        </sys_ui_form_section>
+        <sys_ui_form_section action="INSERT_OR_UPDATE">
+            <position>2</position>
+            <sys_created_by>can.yaver</sys_created_by>
+            <sys_created_on>2019-02-05 11:08:44</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>763ed6f71b93e7002400993d1d4bcbd1</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_overrides/>
+            <sys_ui_form display_value="csm_consumer_user" name="csm_consumer_user" sys_domain="global" view="Default view">7a3ed6f71b93e7002400993d1d4bcbc7</sys_ui_form>
+            <sys_ui_section caption="Regional Settings" display_value="Regional Settings" name="csm_consumer_user" sys_domain="global" view="Default view">ba3ed6f71b93e7002400993d1d4bcbcf</sys_ui_section>
+            <sys_updated_by>can.yaver</sys_updated_by>
+            <sys_updated_on>2019-02-05 11:08:44</sys_updated_on>
+        </sys_ui_form_section>
+        <sys_ui_form_section action="INSERT_OR_UPDATE">
+            <position>3</position>
+            <sys_created_by>can.yaver</sys_created_by>
+            <sys_created_on>2019-02-05 11:08:44</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>ba3ed6f71b93e7002400993d1d4bcbd3</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_overrides/>
+            <sys_ui_form display_value="csm_consumer_user" name="csm_consumer_user" sys_domain="global" view="Default view">7a3ed6f71b93e7002400993d1d4bcbc7</sys_ui_form>
+            <sys_ui_section caption="Administrative Settings" display_value="Administrative Settings" name="csm_consumer_user" sys_domain="global" view="Default view">7a3ed6f71b93e7002400993d1d4bcbd1</sys_ui_section>
+            <sys_updated_by>can.yaver</sys_updated_by>
+            <sys_updated_on>2019-02-05 11:08:44</sys_updated_on>
+        </sys_ui_form_section>
+        <sys_ui_form action="INSERT_OR_UPDATE">
+            <name>csm_consumer_user</name>
+            <roles/>
+            <sys_class_name>sys_ui_form</sys_class_name>
+            <sys_created_by>can.yaver</sys_created_by>
+            <sys_created_on>2019-02-05 11:08:44</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>7a3ed6f71b93e7002400993d1d4bcbc7</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_name>csm_consumer_user</sys_name>
+            <sys_overrides/>
+            <sys_package display_value="Vendor Onboarding" source="x_pisn_vdr_onb">c99b56ab1bdf670022e311fc2d4bcbd2</sys_package>
+            <sys_policy/>
+            <sys_scope display_value="Vendor Onboarding">c99b56ab1bdf670022e311fc2d4bcbd2</sys_scope>
+            <sys_update_name>sys_ui_form_sections_7a3ed6f71b93e7002400993d1d4bcbc7</sys_update_name>
+            <sys_updated_by>can.yaver</sys_updated_by>
+            <sys_updated_on>2019-02-05 11:08:44</sys_updated_on>
+            <sys_user/>
+            <view display_value="Default view" name="NULL">Default view</view>
+            <view_name/>
+        </sys_ui_form>
+    </sys_ui_form_sections>
+</record_update>

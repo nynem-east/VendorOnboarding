@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="sys_script_client">
+    <sys_script_client action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <applies_extended>false</applies_extended>
+        <condition/>
+        <description/>
+        <field>active</field>
+        <global>true</global>
+        <isolate_script>true</isolate_script>
+        <messages/>
+        <name>Change color Risk_rating Assessment</name>
+        <order/>
+        <script><![CDATA[function onLoad() {
+  
+	var value1 = g_form.getValue('sys_select.sn_vdr_risk_asmt_assessment.risk_rating');
+	switch(value1) {
+		case "238b981f9f03220030581471367fcf28": g_form.getControl('sys_select.sn_vdr_risk_asmt_assessment.risk_rating').style.background = 'red'; break;
+		case "84cb905f9f03220030581471367fcf6f": g_form.getControl('sys_select.sn_vdr_risk_asmt_assessment.risk_rating').style.background = 'tomato'; break;
+		case "97cb905f9f03220030581471367fcf38": g_form.getControl('sys_select.sn_vdr_risk_asmt_assessment.risk_rating').style.background = 'orange'; break;
+		case "e1db905f9f03220030581471367fcf70": g_form.getControl('sys_select.sn_vdr_risk_asmt_assessment.risk_rating').style.background = 'yellow'; break;
+		case "8ceb581f9f03220030581471367fcf21": g_form.getControl('sys_select.sn_vdr_risk_asmt_assessment.risk_rating').style.background = 'green'; break;
+		default: g_form.getControl('sys_select.sn_vdr_risk_asmt_assessment.risk_rating').style.background = 'white'; break;
+   }
+}
+
+
+/*
+
+	fieldValues:["Critical","High","Moderate","Low","Minor"],
+
+function onChange(control, oldValue, newValue, isLoading) { 
+//  var elementID = gel("core_company.risk_rating");
+  var elementID = "sys_select.core_company.risk_rating";
+    switch(newValue) { 
+      case "1": elementID.style.backgroundColor = "red"; break; 
+      case "2": elementID.style.backgroundColor = "tomato"; break;
+      case "3": elementID.style.backgroundColor = "orange"; break;
+      case "4": elementID.style.backgroundColor = "yellow"; break;
+      case "5": elementID.style.backgroundColor = "green"; break; 
+      default: elementID.style.backgroundColor = "white"; break; } }*/]]></script>
+        <sys_class_name>sys_script_client</sys_class_name>
+        <sys_created_by>vincent.malvy</sys_created_by>
+        <sys_created_on>2019-02-13 12:17:29</sys_created_on>
+        <sys_domain>global</sys_domain>
+        <sys_domain_path>/</sys_domain_path>
+        <sys_id>dc4af3da1ba3a34022e311fc2d4bcb17</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Change color Risk_rating Assessment</sys_name>
+        <sys_overrides/>
+        <sys_package display_value="Vendor Onboarding" source="x_pisn_vdr_onb">c99b56ab1bdf670022e311fc2d4bcbd2</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Vendor Onboarding">c99b56ab1bdf670022e311fc2d4bcbd2</sys_scope>
+        <sys_update_name>sys_script_client_dc4af3da1ba3a34022e311fc2d4bcb17</sys_update_name>
+        <sys_updated_by>vincent.malvy</sys_updated_by>
+        <sys_updated_on>2019-02-13 12:17:29</sys_updated_on>
+        <table>sn_vdr_risk_asmt_assessment</table>
+        <type>onLoad</type>
+        <ui_type>0</ui_type>
+        <view/>
+    </sys_script_client>
+</record_update>

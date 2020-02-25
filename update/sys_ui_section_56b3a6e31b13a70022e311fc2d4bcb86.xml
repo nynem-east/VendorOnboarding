@@ -1,0 +1,141 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update>
+    <sys_ui_section caption="" section_id="56b3a6e31b13a70022e311fc2d4bcb86" sys_domain="global" table="x_pisn_vdr_onb_vendor_case" version="3" view="community_view">
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>contact</element>
+            <position>0</position>
+            <sys_created_by>fabio.petito</sys_created_by>
+            <sys_created_on>2019-02-04 16:54:16</sys_created_on>
+            <sys_id>12b3a6e31b13a70022e311fc2d4bcb87</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="NULL" display_value="" name="x_pisn_vdr_onb_vendor_case" sys_domain="global" view="5ecf9f23eb900300a51a63fba206feb7">56b3a6e31b13a70022e311fc2d4bcb86</sys_ui_section>
+            <sys_updated_by>fabio.petito</sys_updated_by>
+            <sys_updated_on>2019-02-04 16:54:16</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>account</element>
+            <position>1</position>
+            <sys_created_by>fabio.petito</sys_created_by>
+            <sys_created_on>2019-02-04 16:54:16</sys_created_on>
+            <sys_id>92b3a6e31b13a70022e311fc2d4bcb87</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="NULL" display_value="" name="x_pisn_vdr_onb_vendor_case" sys_domain="global" view="5ecf9f23eb900300a51a63fba206feb7">56b3a6e31b13a70022e311fc2d4bcb86</sys_ui_section>
+            <sys_updated_by>fabio.petito</sys_updated_by>
+            <sys_updated_on>2019-02-04 16:54:16</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>consumer</element>
+            <position>2</position>
+            <sys_created_by>fabio.petito</sys_created_by>
+            <sys_created_on>2019-02-04 16:54:16</sys_created_on>
+            <sys_id>16b3a6e31b13a70022e311fc2d4bcb87</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="NULL" display_value="" name="x_pisn_vdr_onb_vendor_case" sys_domain="global" view="5ecf9f23eb900300a51a63fba206feb7">56b3a6e31b13a70022e311fc2d4bcb86</sys_ui_section>
+            <sys_updated_by>fabio.petito</sys_updated_by>
+            <sys_updated_on>2019-02-04 16:54:16</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>short_description</element>
+            <position>3</position>
+            <sys_created_by>fabio.petito</sys_created_by>
+            <sys_created_on>2019-02-04 16:54:16</sys_created_on>
+            <sys_id>96b3a6e31b13a70022e311fc2d4bcb87</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="NULL" display_value="" name="x_pisn_vdr_onb_vendor_case" sys_domain="global" view="5ecf9f23eb900300a51a63fba206feb7">56b3a6e31b13a70022e311fc2d4bcb86</sys_ui_section>
+            <sys_updated_by>fabio.petito</sys_updated_by>
+            <sys_updated_on>2019-02-04 16:54:16</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>priority</element>
+            <position>4</position>
+            <sys_created_by>fabio.petito</sys_created_by>
+            <sys_created_on>2019-02-04 16:54:16</sys_created_on>
+            <sys_id>1ab3a6e31b13a70022e311fc2d4bcb87</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="NULL" display_value="" name="x_pisn_vdr_onb_vendor_case" sys_domain="global" view="5ecf9f23eb900300a51a63fba206feb7">56b3a6e31b13a70022e311fc2d4bcb86</sys_ui_section>
+            <sys_updated_by>fabio.petito</sys_updated_by>
+            <sys_updated_on>2019-02-04 16:54:16</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>opened_by</element>
+            <position>5</position>
+            <sys_created_by>fabio.petito</sys_created_by>
+            <sys_created_on>2019-02-04 16:54:16</sys_created_on>
+            <sys_id>9ab3a6e31b13a70022e311fc2d4bcb87</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="NULL" display_value="" name="x_pisn_vdr_onb_vendor_case" sys_domain="global" view="5ecf9f23eb900300a51a63fba206feb7">56b3a6e31b13a70022e311fc2d4bcb86</sys_ui_section>
+            <sys_updated_by>fabio.petito</sys_updated_by>
+            <sys_updated_on>2019-02-04 16:54:16</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>contact_type</element>
+            <position>6</position>
+            <sys_created_by>fabio.petito</sys_created_by>
+            <sys_created_on>2019-02-04 16:54:16</sys_created_on>
+            <sys_id>1eb3a6e31b13a70022e311fc2d4bcb87</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="NULL" display_value="" name="x_pisn_vdr_onb_vendor_case" sys_domain="global" view="5ecf9f23eb900300a51a63fba206feb7">56b3a6e31b13a70022e311fc2d4bcb86</sys_ui_section>
+            <sys_updated_by>fabio.petito</sys_updated_by>
+            <sys_updated_on>2019-02-04 16:54:16</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>work_notes</element>
+            <position>7</position>
+            <sys_created_by>fabio.petito</sys_created_by>
+            <sys_created_on>2019-02-04 16:54:16</sys_created_on>
+            <sys_id>9eb3a6e31b13a70022e311fc2d4bcb87</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="NULL" display_value="" name="x_pisn_vdr_onb_vendor_case" sys_domain="global" view="5ecf9f23eb900300a51a63fba206feb7">56b3a6e31b13a70022e311fc2d4bcb86</sys_ui_section>
+            <sys_updated_by>fabio.petito</sys_updated_by>
+            <sys_updated_on>2019-02-04 16:54:16</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_section action="INSERT_OR_UPDATE">
+            <caption/>
+            <header>false</header>
+            <name>x_pisn_vdr_onb_vendor_case</name>
+            <roles/>
+            <sys_class_name>sys_ui_section</sys_class_name>
+            <sys_created_by>fabio.petito</sys_created_by>
+            <sys_created_on>2019-02-04 16:54:16</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>56b3a6e31b13a70022e311fc2d4bcb86</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_name>x_pisn_vdr_onb_vendor_case</sys_name>
+            <sys_overrides/>
+            <sys_package display_value="Vendor Onboarding" source="x_pisn_vdr_onb">c99b56ab1bdf670022e311fc2d4bcbd2</sys_package>
+            <sys_policy/>
+            <sys_scope display_value="Vendor Onboarding">c99b56ab1bdf670022e311fc2d4bcbd2</sys_scope>
+            <sys_update_name>sys_ui_section_56b3a6e31b13a70022e311fc2d4bcb86</sys_update_name>
+            <sys_updated_by>fabio.petito</sys_updated_by>
+            <sys_updated_on>2019-02-04 16:54:16</sys_updated_on>
+            <sys_user/>
+            <title>false</title>
+            <view display_value="Community" name="community_view">5ecf9f23eb900300a51a63fba206feb7</view>
+            <view_name/>
+        </sys_ui_section>
+    </sys_ui_section>
+</record_update>

@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_flow_cat_variable_model">
+    <sys_flow_cat_variable_model action="INSERT_OR_UPDATE">
+        <id>96ad046e1be3a34022e311fc2d4bcb6e</id>
+        <name>Vendor Onboarding V2</name>
+        <sys_class_name>sys_flow_cat_variable_model</sys_class_name>
+        <sys_created_by>vincent.malvy</sys_created_by>
+        <sys_created_on>2019-02-13 13:40:24</sys_created_on>
+        <sys_id>d2ad046e1be3a34022e311fc2d4bcb6f</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Vendor Onboarding V2</sys_name>
+        <sys_package display_value="Vendor Onboarding" source="x_pisn_vdr_onb">c99b56ab1bdf670022e311fc2d4bcbd2</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Vendor Onboarding">c99b56ab1bdf670022e311fc2d4bcbd2</sys_scope>
+        <sys_update_name>sys_flow_cat_variable_model_d2ad046e1be3a34022e311fc2d4bcb6f</sys_update_name>
+        <sys_updated_by>vincent.malvy</sys_updated_by>
+        <sys_updated_on>2019-02-13 13:40:24</sys_updated_on>
+    </sys_flow_cat_variable_model>
+</record_update>

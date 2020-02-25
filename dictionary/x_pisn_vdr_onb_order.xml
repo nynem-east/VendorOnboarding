@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8"?><database>
+    <element label="Order" max_length="40" name="x_pisn_vdr_onb_order" type="collection">
+        <element label="Address" max_length="255" name="address" type="string"/>
+        <element label="Case" max_length="32" name="case" reference="sn_customerservice_case" type="reference"/>
+        <element label="City" max_length="40" name="city" type="string"/>
+        <element label="Country" max_length="40" name="country" type="string"/>
+        <element label="Item" max_length="32" name="item" reference="cmdb_consumable_product_model" type="reference"/>
+        <element attributes="ignore_filter_on_new=true" default="javascript:global.getNextObjNumberPadded();" label="Number" max_length="40" name="number" type="string"/>
+        <element label="Short Description" max_length="100" name="short_description" type="string"/>
+        <element choice="3" label="State" max_length="40" name="state" type="string">
+            <choice>
+                <element inactive_on_update="false" label="Delivered" value="delivered"/>
+                <element inactive_on_update="false" label="Received" value="received"/>
+                <element inactive_on_update="false" label="Shipped" value="shipped"/>
+            </choice>
+        </element>
+        <element label="State / Province" max_length="40" name="state_province" type="string"/>
+        <element default="javascript:x_pisn_sp_vdrcsm.MyVendor();" label="Vendor" max_length="32" name="vendor" reference="core_company" reference_qual="vendor=true^EQ" reference_qual_condition="vendor=true^EQ" type="reference"/>
+        <element default="javascript:gs.getUserID();" dynamic_default_value="2fd8e97bef3221002841f7f775c0fbc1" label="Contact" mandatory="true" max_length="32" name="vendor_contact" reference="sys_user" type="reference" use_dynamic_default="true"/>
+        <element label="Zip / Postal code" max_length="40" name="zip_postal_code" type="string"/>
+        <index name="index">
+            <element name="item"/>
+        </index>
+        <index name="index2">
+            <element name="vendor"/>
+        </index>
+        <index name="index3">
+            <element name="vendor_contact"/>
+        </index>
+        <index name="index4">
+            <element name="case"/>
+        </index>
+    </element>
+</database>

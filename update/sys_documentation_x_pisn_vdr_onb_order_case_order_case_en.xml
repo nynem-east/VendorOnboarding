@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update>
+    <sys_documentation element="order_case" label="Purchase Order" language="en" table="x_pisn_vdr_onb_order_case">
+        <sys_documentation action="INSERT_OR_UPDATE">
+            <element>order_case</element>
+            <help/>
+            <hint/>
+            <label>Purchase Order</label>
+            <language>en</language>
+            <name>x_pisn_vdr_onb_order_case</name>
+            <plural>Purchase Orders</plural>
+            <sys_class_name>sys_documentation</sys_class_name>
+            <sys_created_by>fabio.petito</sys_created_by>
+            <sys_created_on>2019-02-07 16:55:23</sys_created_on>
+            <sys_id>88c04aa41b27ab0022e311fc2d4bcb05</sys_id>
+            <sys_mod_count>2</sys_mod_count>
+            <sys_name>Purchase Order</sys_name>
+            <sys_package display_value="Vendor Onboarding" source="x_pisn_vdr_onb">c99b56ab1bdf670022e311fc2d4bcbd2</sys_package>
+            <sys_policy/>
+            <sys_scope display_value="Vendor Onboarding">c99b56ab1bdf670022e311fc2d4bcbd2</sys_scope>
+            <sys_update_name>sys_documentation_x_pisn_vdr_onb_order_case_order_case_en</sys_update_name>
+            <sys_updated_by>vincent.malvy</sys_updated_by>
+            <sys_updated_on>2019-02-12 09:50:44</sys_updated_on>
+            <url/>
+            <url_target/>
+        </sys_documentation>
+    </sys_documentation>
+</record_update>

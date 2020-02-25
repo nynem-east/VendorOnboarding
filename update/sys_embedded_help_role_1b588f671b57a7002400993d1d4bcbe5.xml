@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_embedded_help_role">
+    <sys_embedded_help_role action="INSERT_OR_UPDATE">
+        <order>1000</order>
+        <role display_value="x_pisn_vdr_onb.invoice_user" name="x_pisn_vdr_onb.invoice_user">9f5847271b57a7002400993d1d4bcb54</role>
+        <sys_class_name>sys_embedded_help_role</sys_class_name>
+        <sys_created_by>can.yaver</sys_created_by>
+        <sys_created_on>2019-02-04 19:34:21</sys_created_on>
+        <sys_id>1b588f671b57a7002400993d1d4bcbe5</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>9f5847271b57a7002400993d1d4bcb54</sys_name>
+        <sys_package display_value="Vendor Onboarding" source="x_pisn_vdr_onb">c99b56ab1bdf670022e311fc2d4bcbd2</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Vendor Onboarding">c99b56ab1bdf670022e311fc2d4bcbd2</sys_scope>
+        <sys_update_name>sys_embedded_help_role_1b588f671b57a7002400993d1d4bcbe5</sys_update_name>
+        <sys_updated_by>can.yaver</sys_updated_by>
+        <sys_updated_on>2019-02-04 19:34:21</sys_updated_on>
+    </sys_embedded_help_role>
+</record_update>

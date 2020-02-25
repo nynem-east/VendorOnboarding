@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?><database>
+    <element attributes="live_feed=true" audit="true" extends="sn_customerservice_case" label="Vendor Generic Case" max_length="40" name="x_pisn_vdr_onb_order_case" sizeclass="42" type="collection">
+        <element choice="1" label="Case type" max_length="40" name="case_type" type="choice">
+            <choice>
+                <element inactive_on_update="false" label="Special request" value="Special request"/>
+                <element inactive_on_update="false" label="Un-blacklist a vendor" value="unblacklist"/>
+                <element inactive_on_update="false" label="Invoice" sequence="1" value="invoice"/>
+                <element inactive_on_update="false" label="Purchase Order" sequence="2" value="order"/>
+                <element inactive_on_update="false" label="Contract" sequence="3" value="contract"/>
+            </choice>
+        </element>
+        <element label="Invoice" max_length="32" name="invoice_case" reference="x_pisn_vdr_onb_invoice" type="reference"/>
+        <element label="Purchase Order" max_length="32" name="order_case" reference="x_pisn_vdr_onb_order" type="reference"/>
+        <element label="Order Line" max_length="32" name="order_line" reference="csm_order_line_item" type="reference"/>
+    </element>
+</database>

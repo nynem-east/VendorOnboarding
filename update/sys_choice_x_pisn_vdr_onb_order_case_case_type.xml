@@ -1,0 +1,115 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update>
+    <sys_choice action="INSERT_OR_UPDATE" field="case_type" table="x_pisn_vdr_onb_order_case" version="3">
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>case_type</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Special request</label>
+            <language>en</language>
+            <name>x_pisn_vdr_onb_order_case</name>
+            <sequence/>
+            <sys_created_by>vincent.malvy</sys_created_by>
+            <sys_created_on>2019-02-12 14:42:36</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>071217ca1bef234022e311fc2d4bcb61</sys_id>
+            <sys_mod_count>1</sys_mod_count>
+            <sys_updated_by>vincent.malvy</sys_updated_by>
+            <sys_updated_on>2019-02-12 14:42:51</sys_updated_on>
+            <value>Special request</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>case_type</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Un-blacklist a vendor</label>
+            <language>en</language>
+            <name>x_pisn_vdr_onb_order_case</name>
+            <sequence/>
+            <sys_created_by>vincent.malvy</sys_created_by>
+            <sys_created_on>2019-02-12 14:43:35</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>31721bca1bef234022e311fc2d4bcb4c</sys_id>
+            <sys_mod_count>2</sys_mod_count>
+            <sys_updated_by>fabio.petito</sys_updated_by>
+            <sys_updated_on>2019-02-12 15:56:59</sys_updated_on>
+            <value>unblacklist</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>case_type</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Invoice</label>
+            <language>en</language>
+            <name>x_pisn_vdr_onb_order_case</name>
+            <sequence>1</sequence>
+            <sys_created_by>vincent.malvy</sys_created_by>
+            <sys_created_on>2019-02-12 09:09:11</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>e3e542821bab234022e311fc2d4bcb31</sys_id>
+            <sys_mod_count>1</sys_mod_count>
+            <sys_updated_by>vincent.malvy</sys_updated_by>
+            <sys_updated_on>2019-02-12 09:09:50</sys_updated_on>
+            <value>invoice</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>case_type</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Purchase Order</label>
+            <language>en</language>
+            <name>x_pisn_vdr_onb_order_case</name>
+            <sequence>2</sequence>
+            <sys_created_by>vincent.malvy</sys_created_by>
+            <sys_created_on>2019-02-12 09:09:39</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>0f06c2821bab234022e311fc2d4bcb9d</sys_id>
+            <sys_mod_count>1</sys_mod_count>
+            <sys_updated_by>vincent.malvy</sys_updated_by>
+            <sys_updated_on>2019-02-12 09:31:40</sys_updated_on>
+            <value>order</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>case_type</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Contract</label>
+            <language>en</language>
+            <name>x_pisn_vdr_onb_order_case</name>
+            <sequence>3</sequence>
+            <sys_created_by>vincent.malvy</sys_created_by>
+            <sys_created_on>2019-02-12 09:10:18</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>d72646821bab234022e311fc2d4bcb9a</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>vincent.malvy</sys_updated_by>
+            <sys_updated_on>2019-02-12 09:10:18</sys_updated_on>
+            <value>contract</value>
+        </sys_choice>
+        <sys_choice_set action="INSERT_OR_UPDATE">
+            <element>case_type</element>
+            <name>x_pisn_vdr_onb_order_case</name>
+            <sys_class_name>sys_choice_set</sys_class_name>
+            <sys_created_by>vincent.malvy</sys_created_by>
+            <sys_created_on>2019-02-12 09:09:11</sys_created_on>
+            <sys_id>63f502821bab234022e311fc2d4bcb6e</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_name>case_type</sys_name>
+            <sys_package display_value="Vendor Onboarding" source="x_pisn_vdr_onb">c99b56ab1bdf670022e311fc2d4bcbd2</sys_package>
+            <sys_policy/>
+            <sys_scope display_value="Vendor Onboarding">c99b56ab1bdf670022e311fc2d4bcbd2</sys_scope>
+            <sys_update_name>sys_choice_x_pisn_vdr_onb_order_case_case_type</sys_update_name>
+            <sys_updated_by>vincent.malvy</sys_updated_by>
+            <sys_updated_on>2019-02-12 09:09:11</sys_updated_on>
+        </sys_choice_set>
+    </sys_choice>
+</record_update>

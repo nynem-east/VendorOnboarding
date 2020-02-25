@@ -1,0 +1,182 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sc_cat_item_producer">
+    <sc_cat_item_producer action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <availability>on_both</availability>
+        <billable>false</billable>
+        <can_cancel>false</can_cancel>
+        <category display_value="Can We Help You?">f238112c1b23ab0022e311fc2d4bcbdf</category>
+        <cost>0</cost>
+        <custom_cart/>
+        <delivery_plan display_value="DEFAULT">523da512c611228900811a37c97c2014</delivery_plan>
+        <delivery_plan_script/>
+        <delivery_time>1970-01-03 00:00:00</delivery_time>
+        <description/>
+        <entitlement_script/>
+        <flow_designer_flow/>
+        <group/>
+        <hide_sp>false</hide_sp>
+        <icon/>
+        <ignore_price>true</ignore_price>
+        <image/>
+        <list_price>0</list_price>
+        <location/>
+        <meta/>
+        <mobile_hide_price>false</mobile_hide_price>
+        <mobile_picture/>
+        <mobile_picture_type>use_desktop_picture</mobile_picture_type>
+        <model/>
+        <name>Vendor On-Boarding</name>
+        <no_cart>false</no_cart>
+        <no_order>false</no_order>
+        <no_order_now>false</no_order_now>
+        <no_proceed_checkout>false</no_proceed_checkout>
+        <no_quantity>false</no_quantity>
+        <no_search>false</no_search>
+        <omit_price>false</omit_price>
+        <order>0</order>
+        <ordered_item_link/>
+        <picture/>
+        <post_insert_script/>
+        <preview>JavaScript: popupOpenStandard("com.glideapp.servicecatalog_cat_item_view.do?v=1&amp;sysparm_id=4dfbd6eb1bdf670022e311fc2d4bcbc1&amp;sysparm_preview=true", "summary");</preview>
+        <price>0</price>
+        <recurring_frequency/>
+        <recurring_price>0</recurring_price>
+        <redirect_url>generated_record</redirect_url>
+        <roles>vendor_manager</roles>
+        <sc_catalogs>b0e6e0141beb2b0022e311fc2d4bcb50</sc_catalogs>
+        <sc_ic_item_staging/>
+        <sc_ic_version/>
+        <script><![CDATA[var voAPI = new x_pisn_sp_vdrcsm.vendorAPI();
+var existingVendorObj = voAPI.getRecord('vendor=true^nameLIKE' + current.name + '^zip=' + current.zip.replace(' ', ''));
+var vendor_sys_id = current.sys_id;
+if (existingVendorObj.sys_id) {
+  vendor_sys_id = existingVendorObj.sys_id;
+}
+current.vendor = true;
+current.rank_tier = 'valued';
+current.status = 'NULL';
+if(current.zip)
+  current.zip = current.zip.replace(' ', '');
+
+//random password
+var newpw = "";
+var availablechars = "1234567890ABCDEFGHIJKLMNOPQRSTUVWXYZabcdefghijklmnopqrstuvwxyz";
+for (var x = 0; x < 8; x++) {
+  randomNumber = Math.floor(Math.random() * availablechars.length);
+  newpw += availablechars[randomNumber];
+}
+
+var grContact = new GlideRecord('vm_vdr_contact');
+grContact.initialize();
+grContact.first_name = producer.contact_first_name;
+grContact.last_name = producer.contact_last_name;
+grContact.email = producer.contact_email;
+grContact.phone = producer.contact_phone_number;
+grContact.primary_contact = true;
+grContact.active = true;
+grContact.company = vendor_sys_id;
+grContact.password_needs_reset = true;
+grContact.source = newpw;
+var contactSysId = grContact.insert();
+
+var recVendorPassword = new GlideRecord('vm_vdr_contact');
+recVendorPassword.get(contactSysId);
+recVendorPassword.user_password.setDisplayValue(newpw);
+recVendorPassword.update();
+
+var grRole = new GlideRecord('sys_user_has_role');
+grRole.initialize();
+grRole.role = '976718ae53422200c62e8e56a11c08b1';
+grRole.user = contactSysId;
+grRole.insert();
+
+var grRole = new GlideRecord('sys_user_has_role');
+grRole.initialize();
+grRole.role = '940ba702933002009c8579b4f47ffbe2';
+grRole.user = contactSysId;
+grRole.insert();
+
+var grRole = new GlideRecord('sys_user_has_role');
+grRole.initialize();
+grRole.role = '3a64fc24d7700200e5982cf65e610357';
+grRole.user = contactSysId;
+grRole.insert();
+
+var grCase = new GlideRecord('x_pisn_vdr_onb_vendor_case');
+grCase.initialize();
+grCase.active = true;
+grCase.company = vendor_sys_id;
+grCase.short_description = 'Vendor Onboarding process for ' + producer.name;
+grCase.category = 3;
+grCase.contact = contactSysId;
+var caseSysId = grCase.insert();
+
+if (existingVendorObj.sys_id) {
+  current.zip = 'to_be_deleted';//current.setAbortAction(true); not working in scoped app
+}
+
+producer.portal_redirect = '?id=x_pisn_sp_vdrcsm_vo_case_ticket&sys_id=' + caseSysId + '&table=x_pisn_vdr_onb_vendor_case';
+]]></script>
+        <short_description>Enter the name of vendor to begin on-boarding process.</short_description>
+        <show_variable_help_on_load>false</show_variable_help_on_load>
+        <start_closed>false</start_closed>
+        <sys_class_name>sc_cat_item_producer</sys_class_name>
+        <sys_created_by>fabio.petito</sys_created_by>
+        <sys_created_on>2019-02-04 16:22:04</sys_created_on>
+        <sys_id>4dfbd6eb1bdf670022e311fc2d4bcbc1</sys_id>
+        <sys_mod_count>51</sys_mod_count>
+        <sys_name>Vendor On-Boarding</sys_name>
+        <sys_package display_value="Vendor Onboarding" source="x_pisn_vdr_onb">c99b56ab1bdf670022e311fc2d4bcbd2</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Vendor Onboarding">c99b56ab1bdf670022e311fc2d4bcbd2</sys_scope>
+        <sys_update_name>sc_cat_item_producer_4dfbd6eb1bdf670022e311fc2d4bcbc1</sys_update_name>
+        <sys_updated_by>fabio.petito</sys_updated_by>
+        <sys_updated_on>2019-02-12 23:11:16</sys_updated_on>
+        <table_name>core_company</table_name>
+        <template/>
+        <type>item</type>
+        <use_sc_layout>true</use_sc_layout>
+        <vendor/>
+        <view>vendor</view>
+        <visible_bundle>true</visible_bundle>
+        <visible_guide>true</visible_guide>
+        <visible_standalone>true</visible_standalone>
+        <workflow/>
+    </sc_cat_item_producer>
+    <sys_translated_text action="delete_multiple" query="documentkey=4dfbd6eb1bdf670022e311fc2d4bcbc1"/>
+    <fx_price action="delete_multiple" query="id=4dfbd6eb1bdf670022e311fc2d4bcbc1"/>
+    <fx_price action="INSERT_OR_UPDATE">
+        <amount>0</amount>
+        <currency display_value="USD">USD</currency>
+        <field>price</field>
+        <id>4dfbd6eb1bdf670022e311fc2d4bcbc1</id>
+        <parent/>
+        <reference_amount>0</reference_amount>
+        <reference_currency display_value="EUR">EUR</reference_currency>
+        <sys_created_by>fabio.petito</sys_created_by>
+        <sys_created_on>2019-02-04 16:22:04</sys_created_on>
+        <sys_id>765c5eeb1bdf670022e311fc2d4bcba9</sys_id>
+        <sys_mod_count>1</sys_mod_count>
+        <sys_updated_by>fabio.petito</sys_updated_by>
+        <sys_updated_on>2019-02-06 15:20:28</sys_updated_on>
+        <table>sc_cat_item_producer</table>
+        <type>calculated</type>
+    </fx_price>
+    <fx_price action="INSERT_OR_UPDATE">
+        <amount>0</amount>
+        <currency display_value="USD">USD</currency>
+        <field>recurring_price</field>
+        <id>4dfbd6eb1bdf670022e311fc2d4bcbc1</id>
+        <parent/>
+        <reference_amount>0</reference_amount>
+        <reference_currency display_value="EUR">EUR</reference_currency>
+        <sys_created_by>fabio.petito</sys_created_by>
+        <sys_created_on>2019-02-04 16:22:04</sys_created_on>
+        <sys_id>ba5c5eeb1bdf670022e311fc2d4bcbab</sys_id>
+        <sys_mod_count>1</sys_mod_count>
+        <sys_updated_by>fabio.petito</sys_updated_by>
+        <sys_updated_on>2019-02-06 15:20:28</sys_updated_on>
+        <table>sc_cat_item_producer</table>
+        <type>calculated</type>
+    </fx_price>
+</record_update>

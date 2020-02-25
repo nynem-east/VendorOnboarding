@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update>
+    <sys_ui_form_sections form_id="703d47c01ba32b0022e311fc2d4bcb74" sys_domain="global" table="x_pisn_vdr_onb_vendor_case" version="3">
+        <sys_ui_form_section action="INSERT_OR_UPDATE">
+            <position>0</position>
+            <sys_created_by>vincent.malvy</sys_created_by>
+            <sys_created_on>2019-02-10 14:26:53</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>358bb4611b6f6f0022e311fc2d4bcbc5</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_overrides/>
+            <sys_ui_form display_value="x_pisn_vdr_onb_vendor_case" name="x_pisn_vdr_onb_vendor_case" sys_domain="global" view="d757d7f31bd3e70022e311fc2d4bcbfd">703d47c01ba32b0022e311fc2d4bcb74</sys_ui_form>
+            <sys_ui_section caption="Vendor Onboarding Request" display_value="Vendor Onboarding Request" name="x_pisn_vdr_onb_vendor_case" sys_domain="global" view="d757d7f31bd3e70022e311fc2d4bcbfd">398bb4611b6f6f0022e311fc2d4bcb52</sys_ui_section>
+            <sys_updated_by>vincent.malvy</sys_updated_by>
+            <sys_updated_on>2019-02-10 14:26:53</sys_updated_on>
+        </sys_ui_form_section>
+        <sys_ui_form action="INSERT_OR_UPDATE">
+            <name>x_pisn_vdr_onb_vendor_case</name>
+            <roles/>
+            <sys_class_name>sys_ui_form</sys_class_name>
+            <sys_created_by>fabio.petito</sys_created_by>
+            <sys_created_on>2019-02-06 09:12:26</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>703d47c01ba32b0022e311fc2d4bcb74</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_name>x_pisn_vdr_onb_vendor_case</sys_name>
+            <sys_overrides/>
+            <sys_package display_value="Vendor Onboarding" source="x_pisn_vdr_onb">c99b56ab1bdf670022e311fc2d4bcbd2</sys_package>
+            <sys_policy/>
+            <sys_scope display_value="Vendor Onboarding">c99b56ab1bdf670022e311fc2d4bcbd2</sys_scope>
+            <sys_update_name>sys_ui_form_sections_703d47c01ba32b0022e311fc2d4bcb74</sys_update_name>
+            <sys_updated_by>fabio.petito</sys_updated_by>
+            <sys_updated_on>2019-02-06 09:12:26</sys_updated_on>
+            <sys_user/>
+            <view display_value="Vendor" name="vendor">d757d7f31bd3e70022e311fc2d4bcbfd</view>
+            <view_name/>
+        </sys_ui_form>
+    </sys_ui_form_sections>
+</record_update>
